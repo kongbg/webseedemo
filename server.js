@@ -2,9 +2,13 @@ const express = require("express");
 const app = express();
 const path = require("path");
 
+const dotenv = require("dotenv");
+dotenv.config({ path: `.env.${process.env.NODE_ENV}` }); 
+
 // 创建静态服务
 const serveStatic = require("serve-static");
 const rootPath = path.join(__dirname, "dist");
+
 app.use(serveStatic(rootPath));
 
 // 跨域
