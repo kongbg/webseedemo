@@ -24,7 +24,6 @@ pnpm-debug.log*
 ZJS-FT.zip
 /node_modules/
 /uploads
-dist
 prodsqlite
 devsqlite
 testsqlite
