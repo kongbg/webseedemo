@@ -49,12 +49,12 @@
     </el-dialog>
 
 
-    <!-- <el-button type="primary" @click="codeErr">js错误</el-button>
+    <el-button type="primary" @click="codeErr">js错误</el-button>
     <el-button type="success" @click="asyncError">异步错误</el-button>
     <el-button type="danger" @click="promiseErr">promise错误</el-button>
     <el-button type="info" @click="xhrError">xhr请求报错</el-button>
     <el-button type="warning" @click="fetchError">fetch请求报错</el-button>
-    <el-button type="danger" @click="resourceError">加载资源报错</el-button> -->
+    <el-button type="danger" @click="resourceError">加载资源报错</el-button>
     <p class="error">报错统计</p>
     <el-table :data="tableData" style="width: 100%">
       <el-table-column type="index" width="50"></el-table-column>
