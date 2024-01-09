@@ -227,6 +227,7 @@ export default {
       myChart.setOption(option);
     },
     getTableData() {
+      return
         fetch(`http://${process.env.VUE_APP_NODE_HOST}:${process.env.VUE_APP_NODE_PORT}/api/getErrorList?apikey=${this.projectiId}`)
           .then((response) => response.json())
           .then((res) => {
