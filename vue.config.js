@@ -1,6 +1,5 @@
 const { defineConfig } = require('@vue/cli-service');
-const WebSeeSourceMap = require('./src/plugins/web-see-upload-map.js');
-// const WebSeeSourceMap = require('websee-sourcemaps');
+const WebSeeSourceMap = require('websee-sourcemap');
 const port = process.env.VUE_APP_NODE_PORT;
 process.env.VUE_APP_VERSION = require('./package.json').version;
 module.exports = defineConfig({

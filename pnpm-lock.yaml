@@ -95,6 +95,9 @@ dependencies:
   web-vitals:
     specifier: ^3.1.0
     version: 3.1.1
+  websee-sourcemap:
+    specifier: ^1.0.2
+    version: 1.0.2
   websee-sourcemaps:
     specifier: ^1.0.1
     version: 1.0.1
@@ -7985,6 +7988,10 @@ packages:
       - '@swc/core'
       - esbuild
       - uglify-js
+
+  /websee-sourcemap@1.0.2:
+    resolution: {integrity: sha512-aZDeeJXJ5x/e7yNgJqeLVD7hvWe7JXSCU/4OfN3VSlcOL6CKiCllvhRXXFtylWIB2uoxcMRUCzMDeJlJ+VnhnA==}
+    dev: false
 
   /websee-sourcemaps@1.0.1:
     resolution: {integrity: sha512-fizu+TR5z7dp8ytWiAeC99zPbKk0d1o3GKxANr1dema79S5J3igu5EivlzupyBVBuJkKbnvSWq7Zj/EZaxn0Ng==}
